@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pbilclient",
+  "version": "${version}",
+  "name": "Pbil Client",
+  "description": "Modul-Menü (Taste P) mit Render-, Visuals-, Client- und Komfort-Modulen.",
+  "authors": ["Pbil"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.pbil.client.PbilClient"]
+  },
+  "mixins": ["pbilclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
